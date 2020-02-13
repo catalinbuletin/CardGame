@@ -1,0 +1,26 @@
+{
+  "name": "catalinbuletin/card-game",
+  "description": "Card Game",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.2.0",
+    "illuminate/support": "^6.15"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ],
+    "psr-4": {
+      "CardGame\\": "src/CardGame"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
